@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--- Fonts for this template -->
+	<link href='https://fonts.googleapis.com/css?family=Dekko' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+	<link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+
+    <!-- CSS Style -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="sidenav"><center>
+	<a class="img" onclick="document.getElementById('education').style.display='block'">
+	  <div class="img__overlay">Education</div>
+	  <img src="img/education.png" class="img">
+	</a><br>
+
+	<a class="img" onclick="document.getElementById('work').style.display='block'">
+	  <div class="img__overlay">Work</div>
+	  <img src="img/work.png" class="img">
+	</a><br>
+
+	<a class="img" onclick="document.getElementById('skills').style.display='block'">
+		<div class="img__overlay">Skills</div>
+		<img src="img/skills.png" class="img">
+	</a><br>
+
+	<a class="img" onclick="document.getElementById('cca').style.display='block'">
+		<div class="img__overlay">Leadership</div>
+		<img src="img/cca.png" class="img">
+	</a></center>
+</div>
+
+<div class="main"><h1>POH
+	<span class="text-focus">KAI JUN</span></h1>
+	<div class="social-media">
+		<a href="https://www.linkedin.com/in/pkaijun/"><img src="img/linkedin.png"></a>
+		<a href="https://github.com/pkaijun"><img src="img/github.png"></a>
+		<a href="kai_jun96@hotmail.com"><img src="img/email.png"></a>
+	</div>
+	I am a second-year Computer Science undergraduate, anticipating to graduate in December 2019. I've graduated from Temasek 
+	Polytehnic in 2016 with a Diploma in Digital Forensics (Merit). <br>
+	<b>Here are the following fields that I'm interested in: </b><br>
+	<li>Software Development</li>
+	<li>Digital Forensics</li>
+	<li>Cyber Security</li>
+	<li>Web Development</li>
+	<li>IT Audit</li>
+</div>
+
+<div id="education" class="modal">
+    <div class="modal-content">
+        <span onclick="document.getElementById('education').style.display='none'" class="close">&times;</span>
+        <h2>Education</h2>
+       	<b>National University of Singapore</b> | 2016 - Present<br>
+       	Bachelor of Computing (Honours) in Computer Science<br><br>
+       	<b>Temasek Polytechinc</b> | 2013 - 2016<br>
+       	Diploma in Digtial Forensics<br>
+       	<li>Cumulative GPA of 3.84/4.00</li>
+       	<li>Awarded RSA Bronze Award</li>
+       	<li>Admitted into Director's List for Academic Year 13/14 and 14/15</li>
+       	<h2>Achievements</h2>
+    </div>
+  </div>
+</div>
+
+
+<div id="work" class="modal">
+    <div class="modal-content">
+        <span onclick="document.getElementById('work').style.display='none'" class="close">&times;</span>
+        <h2>Work</h2>
+        <b>DSO National Laboratries</b>	| May 2017 - July 2017 | Mar 2016 - Jul 2016<br>
+        <br><br>
+        <b>Central Narcotics Bureau</b> | Jul 2016 - Sep 2015<br>
+    </div>
+  </div>
+</div>
+
+<div id="skills" class="modal">
+    <div class="modal-content">
+        <span onclick="document.getElementById('skills').style.display='none'" class="close">&times;</span>
+        <h2>Skills</h2>
+        <div class="skills">Hello</div>
+    </div>
+  </div>
+</div>
+
+<div id="cca" class="modal">
+    <div class="modal-content">
+        <span onclick="document.getElementById('cca').style.display='none'" class="close">&times;</span>
+        <h2>Leadership</h2>
+    </div>
+  </div>
+</div>
+
+<script src="js/popup.js"></script>
+
+</body>
+</html>
