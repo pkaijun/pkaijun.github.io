@@ -1,6 +1,7 @@
 body {
- font-family: 'Dekko';
- font-size: 22px;
+	font-family: 'Open Sans', serif;
+	font-size: 22px;    
+	color: #696969;
 }
 
 h1,
@@ -12,20 +13,37 @@ h6 {
   font-size: 100px;
   text-transform: uppercase;
   color: #343a40;
+  line-height: 0;
 }
 
 h2 {
+	font-family: 'Saira Extra Condensed', serif;
 	font-size: 50px;
 	font-weight: 500;
 	text-transform: uppercase;
 	color: #FF7F50;
+	line-height: 0.3;
 }
 
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
+  color: #808080;
   font-family: 'Saira Extra Condensed', serif;
-  font-size: 1.35rem;
+  font-size: 1.4rem;
+  line-height: 1;
+}
+
+.subheading-focus {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: 'Saira Extra Condensed', serif;
+	font-size: 1.8rem;
+	color: black;
+}
+
+.text-primary {
+  color: #BD5D38;
 }
 
 .text-focus {
@@ -33,13 +51,20 @@ h2 {
 }
 
 .date {
-	padding-left: 500px;
+	margin-left: 200px;
+	font-size: 1rem;
+	font-weight: normal;
+	text-transform: none;
+	font-family: 'Open Sans', serif;
 }
 
 .main {
     margin-left: 220px; /* Same as the width of the sidenav */
-    font-size: 20px; /* Increased text to enable scrolling */
-    padding: 0px 10px;
+    font-size: 15px; /* Increased text to enable scrolling */
+    padding: 40px;
+    line-height: 1.8;
+    padding-top: 5px;
+    padding-right: 150px;
 }
 
 .sidenav {
@@ -55,14 +80,21 @@ h2 {
 }
 
 .social-media {
-	padding-top: 0px;
+	padding-top: 30px;
+}
+
+.icon {
+	padding-right: 12px;
+	padding-bottom: 5px;
 }
 
 .skills {
-    width: 1em; 
-    border: 1px;
-    word-wrap: break-word;
-    background-color: #DA8F8F;
+	border-style: solid;
+	border-color: #FF7F50;
+	border-radius: 10%;
+	display: inline-block;
+	padding-right: 10px;
+	padding-left: 10px;
 }
 
 .img {
