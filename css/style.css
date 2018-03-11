@@ -23,6 +23,7 @@ h2 {
 	text-transform: uppercase;
 	color: #FF7F50;
 	line-height: 0.3;
+	padding-left: 20px;
 }
 
 .subheading {
@@ -32,6 +33,7 @@ h2 {
   font-family: 'Saira Extra Condensed', serif;
   font-size: 1.4rem;
   line-height: 1;
+  padding-left: 50px;
 }
 
 .subheading-focus {
@@ -40,6 +42,17 @@ h2 {
 	font-family: 'Saira Extra Condensed', serif;
 	font-size: 1.8rem;
 	color: black;
+	padding-left: 50px;
+}
+
+.listdetails {
+	padding-left: 80px;
+}
+
+.bulletdetails {
+	padding-right: 200px;
+	text-align: justify;
+	line-height: 25px;
 }
 
 .text-primary {
@@ -56,15 +69,19 @@ h2 {
 	font-weight: normal;
 	text-transform: none;
 	font-family: 'Open Sans', serif;
+	float: right;
+	padding-right: 80px;
 }
 
 .main {
     margin-left: 220px; /* Same as the width of the sidenav */
-    font-size: 15px; /* Increased text to enable scrolling */
+    font-size: 13.5px; /* Increased text to enable scrolling */
     padding: 40px;
     line-height: 1.8;
-    padding-top: 5px;
-    padding-right: 150px;
+    padding-top: 2px;
+    padding-right: 130px;
+    text-align: justify;
+    overflow: hidden;
 }
 
 .sidenav {
@@ -80,12 +97,13 @@ h2 {
 }
 
 .social-media {
-	padding-top: 30px;
+	padding-top: 20px;
 }
 
 .icon {
 	padding-right: 12px;
-	padding-bottom: 5px;
+	width: 55px;
+	height: 55px;
 }
 
 .skills {
@@ -95,6 +113,39 @@ h2 {
 	display: inline-block;
 	padding-right: 10px;
 	padding-left: 10px;
+}
+
+.border {
+	border: 2px solid #CD5C5C;
+	border-radius: 8px;
+	padding: 5px;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  opacity: 1;
 }
 
 .img {
@@ -149,7 +200,8 @@ h2 {
     top: 0;
     width: 100%; /* Full width */
     height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
+    overflow-y: auto;
+    max-height: calc(100vh - 100px);
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
@@ -161,6 +213,7 @@ h2 {
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
+    font-size: 15px;
 }
 
 /* The Close Button */
